@@ -1,0 +1,30 @@
+xyz
+{font-family: "Times New Roman", Times, serif;}
+table#t01 th {
+  color: white;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+}
+table
+{
+  border: 1px solid black;
+	 border-radius: 240px;
+ 	 width: 200px;
+ 	 height: 150px; 
+	border-collapse: collapse;
+}
+select { 
+   
+    background-color: #3AB26F;
+	color: white;
+}
+abc
+{
+  font-size: 40px;
+  color:#3AB26F;
+}
+def
+{
+  font-size: 20px;
+    color:#3AB26F;
+}
