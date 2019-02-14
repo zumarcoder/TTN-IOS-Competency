@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+		</script>
+		</head>
+		<body>
+		<div id="main" >
+			<h4 class="target">
+				Size will increase after clicking the button
+			</h4>
+		</div>
+			<button>Font</button>
+		</body>
+	<script>
+			$(document).ready(function() {
+				$("button").click(function(){
+						$("#main > .target").css("font-size","100px");
+									});
+				
+								});
+		</script>
+	
+</html>

@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+		</script>
+		</head>
+		<body>
+		<div>
+		exchanging this text
+		</div>
+		
+			<button>Font</button>
+		</body>
+	<script>
+			$(document).ready(function() {
+				$("button").click(function(){
+						$("div").replaceWith("<p>with this text</p>");
+									});
+								});
+		</script>
+	
+</html>

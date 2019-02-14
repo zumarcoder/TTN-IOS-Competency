@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+		</script>
+		</head>
+		<body>
+			
+		<span>
+		hello i am in div tag
+			<h1>
+				hello i am in li tag nested in div
+			</h1>
+		</span>
+			<button>Click</button>
+		</body>
+	<script>
+			$(document).ready(function() {
+				$("button").click(function(){
+				$("span").css({"color":"red"});
+				$("span").children().css({"color":"black"});
+			});
+				});
+					/* $("span").parents().css("color"."red");*/
+		</script>
+	
+</html>

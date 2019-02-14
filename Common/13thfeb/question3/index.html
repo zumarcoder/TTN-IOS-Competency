@@ -1,0 +1,29 @@
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+		</script>
+		</head>
+		<body>
+			<div class="test">
+				class name test.
+			</div>
+			<div class="tothenew">
+				class name tothenew.
+			</div>
+			<div class="new23">
+				class name new23.
+			</div>
+			
+			<button type="button">Click here</button>
+		</body>
+	<script>
+		$(document).ready(function() {
+			$("button").click(function()
+							  {
+									$("div[class$='new']").css('color','red');
+								});
+								});
+		</script>
+</html>
