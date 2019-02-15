@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+		</script>
+	</head>
+	<body>
+		<div>
+			<img id="0" src="https://cms-assets.tutsplus.com/uploads/users/33/posts/25209/image/animate-bird-slide-02vdd3.jpg">
+			<img id="1" src="https://cms-assets.tutsplus.com/uploads/users/1112/posts/25209/image/animate-bird-slide-09.jpg">
+			<img id="2" src="https://cms-assets.tutsplus.com/uploads/users/1112/posts/25209/image/animate-bird-slide-07.jpg">
+			<img id="3" src="https://cms-assets.tutsplus.com/uploads/users/1112/posts/25209/image/animate-bird-slide-06.jpg">
+		</div>
+	</body>
+	<script>
+		$(document).ready(function()
+						  {   
+			var curPos=0;
+			  var count=$("img").length;
+			  $("div");
+			  setInterval(Slideshow,200);
+		    	function Slideshow(){
+				  $("img").css("display","none");
+				  if(curPos==count-1){
+					  curPos=0;
+				  }
+				  else{
+					  curPos++;
+				  }
+          $("#"+(curPos)).toggle();
+        }
+      });
+	</script>
+</html>
