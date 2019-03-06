@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController4: UIViewController {
     @IBOutlet var Label1 : UILabel!
+    @IBOutlet var Label2 : UILabel!
     @IBOutlet var Button1 : UIButton!
     @IBOutlet var Button2 : UIButton!
     @IBOutlet var Button3 : UIButton!
@@ -31,6 +32,11 @@ class ViewController4: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-Label1.text = "You are on ViewController 5"
+        Label1.text = "You are on ViewController 5"
+        let nabArray = self.navigationController?.viewControllers
+        let mover = nabArray![0] as? ViewController
+       // print(mover?.Label2.text)
+        let  lab = mover?.Label2.text
+        Label2.text = lab
     }
 }

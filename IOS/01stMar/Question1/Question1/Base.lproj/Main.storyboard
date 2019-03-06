@@ -41,6 +41,13 @@
                                     <action selector="onClick1" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gph-OY-eQR"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Js0-M7-erC">
+                                <rect key="frame" x="56" y="259" width="262" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -50,6 +57,7 @@
                         <outlet property="Button1" destination="raf-L0-b4U" id="iE5-IF-CcE"/>
                         <outlet property="Button2" destination="jBm-1O-JFm" id="4Fa-UV-xiL"/>
                         <outlet property="Label1" destination="nJD-sj-tBH" id="BAx-uZ-IlD"/>
+                        <outlet property="Label2" destination="Js0-M7-erC" id="hhD-mE-8Ln"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -182,7 +190,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zE1-yh-PA7">
-                                <rect key="frame" x="36" y="168" width="304" height="61"/>
+                                <rect key="frame" x="35" y="99" width="304" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -212,6 +220,13 @@
                                     <action selector="onClick3" destination="n97-Ea-CIq" eventType="touchUpInside" id="geK-XC-27g"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jrC-uT-cqW">
+                                <rect key="frame" x="35" y="201" width="304" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Qon-i1-zTr"/>
@@ -221,6 +236,7 @@
                         <outlet property="Button2" destination="msM-zH-uXe" id="me0-JY-eUB"/>
                         <outlet property="Button3" destination="yaV-6f-lJB" id="Pap-Ev-rwO"/>
                         <outlet property="Label1" destination="zE1-yh-PA7" id="FGM-Id-AqJ"/>
+                        <outlet property="Label2" destination="jrC-uT-cqW" id="RCi-iZ-d1z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JWc-76-wSQ" userLabel="First Responder" sceneMemberID="firstResponder"/>

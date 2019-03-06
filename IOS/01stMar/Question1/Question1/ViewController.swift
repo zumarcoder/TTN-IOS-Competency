@@ -8,10 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController , UITextFieldDelegate {
+    
     @IBOutlet var Button1 : UIButton!
     @IBOutlet var Button2 : UIButton!
     @IBOutlet var Label1 : UILabel!
+    @IBOutlet var Label2 : UILabel!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        Label1.text = "Welcome !"
+        Label2.text = String("Wnat to Send on 5")
+    }
     @IBAction func OnClick()
     {
         let storyBoard = UIStoryboard(name : "Main" , bundle : nil )
@@ -27,10 +34,7 @@ class ViewController: UIViewController {
         self.present(controller, animated: true, completion: nil)
         print("you are in button1")
     }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        Label1.text = "Welcome !"
-    }
+    
     override func viewDidDisappear(_ animated: Bool ) {
         super.viewDidDisappear(true)
         print("view did Disappear")
@@ -47,7 +51,6 @@ class ViewController: UIViewController {
         super.viewWillAppear(true)
         print("view will appear view 0")
     }
-
-
 }
+
 
