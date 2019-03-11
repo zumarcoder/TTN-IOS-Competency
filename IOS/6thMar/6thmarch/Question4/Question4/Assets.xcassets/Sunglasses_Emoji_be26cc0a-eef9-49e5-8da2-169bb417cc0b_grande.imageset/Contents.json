@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "Sunglasses_Emoji_be26cc0a-eef9-49e5-8da2-169bb417cc0b_grande.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "Sunglasses_Emoji_be26cc0a-eef9-49e5-8da2-169bb417cc0b_grande-1.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "Sunglasses_Emoji_be26cc0a-eef9-49e5-8da2-169bb417cc0b_grande-2.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
