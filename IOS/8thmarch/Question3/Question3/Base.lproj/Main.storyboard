@@ -15,7 +15,7 @@
             <objects>
                 <viewController id="ibV-mZ-ucg" customClass="ViewController" customModule="Question3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tya-iB-5Kh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="33K-6Z-rcA">
@@ -54,6 +54,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="47U-94-dyD"/>
                     </view>
+                    <size key="freeformSize" width="1000" height="1000"/>
                     <connections>
                         <outlet property="mainVerticalStackView" destination="33K-6Z-rcA" id="Zs2-0v-UP5"/>
                     </connections>

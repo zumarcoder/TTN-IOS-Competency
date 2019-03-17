@@ -21,23 +21,24 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iOS10-wallpaper-iPhone-Gradient-01-kiwimanjaro" translatesAutoresizingMaskIntoConstraints="NO" id="c4D-br-tcF">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vRH-MB-5Zu">
-                                <rect key="frame" x="42" y="103" width="291" height="101.5"/>
-                                <string key="text">I just thought you might want to tell your viewers to use the free App Prepo (in App Store) to make the different scale images.  Just load the graphic (highest res - 3x)</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="20y-Ff-wzg">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">I just thought you might want to tell your viewers to use the free App Prepo (in App Store) to make the different scale images.  Just load the graphic (highest res - 3x)I just thought you might want to tell your viewers to use the free App Prepo (in App Store) to make the different scale images.  Just load the graphic (highest res - 3x)I just thought you might want to tell your viewers to use the free App Prepo (in App Store) to make the different scale images.  Just load the graphic (highest res - 3x)I just thought you might want to tell your viewers to use the free App Prepo (in App Store) to make the different scale images.  Just load the graphic (highest res - 3x)I just thought you might want to tell your viewers to use the free App Prepo (in App Store) to make the different scale images.  Just load the graphic (highest res - 3x)I just thought you might want to tell your viewers to use the free App Prepo (in App Store) to make the different scale images.  Just load the graphic (highest res - 3x)I just thought you might want to tell your viewers to use the free App Prepo (in App Store) to make the different scale images.  Just load the graphic (highest res - 3x)I just thought you might want to tell your viewers to use the free App Prepo (in App Store) to make the different scale images.  Just load the graphic (highest res - 3x)I just thought you might want to tell your viewers to use the free App Prepo (in App Store) to make the different scale images.  Just load the graphic (highest res - 3x)I just thought you might want to tell your viewers to use the free App Prepo (in App Store) to make the different scale images.  Just load the graphic (highest res - 3x)I just thought you might want to tell your viewers to use the free App Prepo (in App Store) to make the different scale images.  Just load the graphic (highest res - 3x)I just thought you might want to tell your viewers to use the free App Prepo (in App Store) to make the different scale images.  Just load the graphic (highest res - 3x)I just thought you might want to tell your viewers to use the free App Prepo (in App Store) to make the different scale images.  Just load the graphic (highest res - 3x)I just thought you might want to tell your viewers to use the free App Prepo (in App Store) to make the different scale images.  Just load the graphic (highest res - 3x)I just thought you might want to tell your viewers to use the free App Prepo (in App Store) to make the different scale images.  Just load the graphic (highest res - 3x)I just thought you might want to tell your viewers to use the free App Prepo (in App Store) to make the different scale images.  Just load the graphic (highest res - 3x)</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="c4D-br-tcF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="2zE-gf-HOb"/>
                             <constraint firstItem="c4D-br-tcF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="38u-OQ-Fzb"/>
                             <constraint firstItem="c4D-br-tcF" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="B4B-x7-2A9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="20y-Ff-wzg" secondAttribute="bottom" id="Hcz-Pb-v5d"/>
                             <constraint firstItem="c4D-br-tcF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KOo-aN-lPc"/>
-                            <constraint firstItem="vRH-MB-5Zu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="83" id="LMR-Wc-W1j"/>
-                            <constraint firstItem="vRH-MB-5Zu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="X5x-9m-Zxw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vRH-MB-5Zu" secondAttribute="trailing" constant="42" id="fkK-kN-wL0"/>
+                            <constraint firstItem="20y-Ff-wzg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dH0-cb-jsW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="20y-Ff-wzg" secondAttribute="trailing" id="qv2-s6-q75"/>
+                            <constraint firstItem="20y-Ff-wzg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="u5Z-r5-Xi9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

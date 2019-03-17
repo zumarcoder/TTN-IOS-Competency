@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,11 +15,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Question5" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6m-Ne-MEB">
-                                <rect key="frame" x="19" y="54.999999999999993" width="375" height="20.666666666666664"/>
+                                <rect key="frame" x="19" y="35" width="628" height="20.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20.5" id="C8l-u2-wmV"/>
@@ -29,7 +29,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHi-wl-uFQ">
-                                <rect key="frame" x="40" y="95.666666666666686" width="76" height="76"/>
+                                <rect key="frame" x="40" y="75.5" width="139.5" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="NHi-wl-uFQ" secondAttribute="height" multiplier="1:1" id="ARt-MV-8Rw"/>
@@ -39,7 +39,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kby-km-p1f">
-                                <rect key="frame" x="126" y="95.666666666666686" width="76" height="76"/>
+                                <rect key="frame" x="189.5" y="75.5" width="139" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="kby-km-p1f" secondAttribute="height" multiplier="1:1" id="d2R-4Y-Y2S"/>
@@ -49,7 +49,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOi-16-AYV">
-                                <rect key="frame" x="212" y="95.666666666666686" width="76" height="76"/>
+                                <rect key="frame" x="338.5" y="75.5" width="139.5" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="tOi-16-AYV" secondAttribute="height" multiplier="1:1" id="dit-ep-Jc3"/>
@@ -59,7 +59,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKC-Zo-ea4">
-                                <rect key="frame" x="298" y="95.666666666666686" width="76" height="76"/>
+                                <rect key="frame" x="488" y="75.5" width="139" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="KKC-Zo-ea4" secondAttribute="height" multiplier="1:1" id="as8-wi-hDA"/>
@@ -70,7 +70,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eft-2I-LdP">
-                                <rect key="frame" x="40" y="191.66666666666666" width="76" height="75.999999999999972"/>
+                                <rect key="frame" x="40" y="125.5" width="139.5" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Eft-2I-LdP" secondAttribute="height" multiplier="1:1" id="jg0-Oy-tSQ"/>
@@ -80,7 +80,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ris-P2-ekE">
-                                <rect key="frame" x="126" y="191.66666666666666" width="76" height="75.999999999999972"/>
+                                <rect key="frame" x="189.5" y="125.5" width="139" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Ris-P2-ekE" secondAttribute="height" multiplier="1:1" id="ScX-uE-Qgu"/>
@@ -90,7 +90,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yai-kP-cOE">
-                                <rect key="frame" x="212" y="191.66666666666666" width="76" height="75.999999999999972"/>
+                                <rect key="frame" x="338.5" y="125.5" width="139.5" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Yai-kP-cOE" secondAttribute="height" multiplier="1:1" id="ldN-aI-po6"/>
@@ -100,7 +100,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Km7-bB-OwU">
-                                <rect key="frame" x="298" y="191.66666666666666" width="76" height="75.999999999999972"/>
+                                <rect key="frame" x="488" y="125.5" width="139" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Km7-bB-OwU" secondAttribute="height" multiplier="1:1" id="5zE-Ud-Fsm"/>
@@ -111,7 +111,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OBg-18-AHw">
-                                <rect key="frame" x="40" y="287.66666666666669" width="76" height="76"/>
+                                <rect key="frame" x="40" y="175.5" width="139.5" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="OBg-18-AHw" secondAttribute="height" multiplier="1:1" id="EIZ-aG-gp6"/>
@@ -121,7 +121,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u6u-8s-DmI">
-                                <rect key="frame" x="126" y="287.66666666666669" width="76" height="76"/>
+                                <rect key="frame" x="189.5" y="175.5" width="139" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="u6u-8s-DmI" secondAttribute="height" multiplier="1:1" id="0vi-OQ-CEt"/>
@@ -131,7 +131,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKj-Ab-bY5">
-                                <rect key="frame" x="212" y="287.66666666666669" width="76" height="76"/>
+                                <rect key="frame" x="338.5" y="175.5" width="139.5" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="GKj-Ab-bY5" secondAttribute="height" multiplier="1:1" id="jUb-qr-Jnh"/>
@@ -141,7 +141,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rq5-YO-fYn">
-                                <rect key="frame" x="298" y="287.66666666666669" width="76" height="76"/>
+                                <rect key="frame" x="488" y="175.5" width="139" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="rq5-YO-fYn" secondAttribute="height" multiplier="1:1" id="Zud-la-FUg"/>
@@ -152,7 +152,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6YK-ph-wrQ">
-                                <rect key="frame" x="40" y="383.66666666666669" width="76" height="76"/>
+                                <rect key="frame" x="40" y="225.5" width="139.5" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="6YK-ph-wrQ" secondAttribute="height" multiplier="1:1" id="cXb-cn-NZH"/>
@@ -162,7 +162,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vpe-gF-1s9">
-                                <rect key="frame" x="126" y="383.66666666666669" width="76" height="76"/>
+                                <rect key="frame" x="189.5" y="225.5" width="139" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Vpe-gF-1s9" secondAttribute="height" multiplier="1:1" id="iRB-P1-fEb"/>
@@ -172,7 +172,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ve1-P0-N7l">
-                                <rect key="frame" x="212" y="383.66666666666669" width="76" height="76"/>
+                                <rect key="frame" x="338.5" y="225.5" width="139.5" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Ve1-P0-N7l" secondAttribute="height" multiplier="1:1" id="HK5-G1-p4D"/>
@@ -182,7 +182,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hA-Ga-cNa">
-                                <rect key="frame" x="298" y="383.66666666666669" width="76" height="76"/>
+                                <rect key="frame" x="488" y="225.5" width="139" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="7hA-Ga-cNa" secondAttribute="height" multiplier="1:1" id="3aF-ZY-4iP"/>
@@ -193,7 +193,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zg6-fF-XMS">
-                                <rect key="frame" x="212" y="479.66666666666674" width="76" height="76"/>
+                                <rect key="frame" x="338.5" y="275.5" width="139.5" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Zg6-fF-XMS" secondAttribute="height" multiplier="1:1" id="oN1-hc-CI8"/>
@@ -203,7 +203,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ET-HE-H8E">
-                                <rect key="frame" x="126" y="479.66666666666674" width="76" height="76"/>
+                                <rect key="frame" x="189.5" y="275.5" width="139" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="4ET-HE-H8E" secondAttribute="height" multiplier="1:1" id="YBc-tB-Jgb"/>
@@ -213,7 +213,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ij-Pe-itf">
-                                <rect key="frame" x="40" y="479.66666666666674" width="76" height="76"/>
+                                <rect key="frame" x="40" y="275.5" width="139.5" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="3Ij-Pe-itf" secondAttribute="height" multiplier="1:1" id="CeQ-aA-SXM"/>
@@ -223,7 +223,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4g-AB-bmH">
-                                <rect key="frame" x="298" y="479.66666666666674" width="76" height="76"/>
+                                <rect key="frame" x="488" y="275.5" width="139" height="30"/>
                                 <color key="backgroundColor" red="0.94782654180000003" green="1" blue="0.46278266499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="h4g-AB-bmH" secondAttribute="height" multiplier="1:1" id="xuK-p8-XDq"/>

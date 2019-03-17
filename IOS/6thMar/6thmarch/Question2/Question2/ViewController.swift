@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBAction func roundImageClick()
     {
         self.imageview1.clipsToBounds = true
-        self.imageview1.layer.cornerRadius = 120
+        self.imageview1.layer.cornerRadius = self.imageview1.frame.size.height / 2 
     }
     override func viewDidLoad() {
         super.viewDidLoad()
