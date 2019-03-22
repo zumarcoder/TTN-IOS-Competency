@@ -12,7 +12,7 @@ import UIKit
 
 // -----------------------------Question2------------------------------------
 //As this is not a generic function generic function is below this code
-protocol addable {
+protocol Addable {
     
     func addition(lhs : String, rhs : String) -> String
     func addition(lhs : Int, rhs : Int) -> Int
@@ -20,13 +20,9 @@ protocol addable {
     
 }
 
-class AddableCheck
+class AddableCheck : Addable
 {
-    
-}
 
-extension AddableCheck : addable
-{
     func addition(lhs: String, rhs: String) -> String {
         return lhs + rhs
     }
@@ -50,18 +46,19 @@ print(doubleSum) // prints sum of double
 
 // With the Help of generic Method
 
-protocol Addable {
+protocol Addable1 {
 static func +(lhs: Self, rhs: Self) -> Self
 }
 
-func add<T: Addable>(_ num1: T, _ num2: T) -> T {
+func add<T: Addable1>(_ num1: T, _ num2: T) -> T {
     return num1 + num2
 }
 
-extension Int: Addable {}
-extension Double: Addable {}
-extension Float: Addable {}
-extension String : Addable {}
+extension Int: Addable1 {}
+extension Double: Addable1 {}
+extension Float: Addable1 {}
+extension String : Addable1 {}
+extension Array : Addable1 {}
 
 print(add("Akash", "Verma"))
 print(add(13.0 , 12.8))
@@ -73,17 +70,61 @@ print(add(13.0 , 12.8))
 
 protocol combining
 {
-     func combined() -> String
+     func combined() -> Any
 }
+
+
+
 
 extension Array : combining
 {
-     func combined() -> String {
-         // further operation to be done to add all the elements of the array in one variable and that variable will be returned back
-    return "hello"
-    }
-}
+    
+    
+    func combined() -> Any {
+        
+        if(self is [Int])
+        {
+            var temp : Int = 0
+            for count1 in self
+            {
+                temp = add(temp, count1 as! Int)
+            }
+            if(temp == 0)
+            {
+                return "Empty Array"
+            }
+            else{
+            return temp
+            }
+        }
 
-var checkarray = ["hello", "i", "Am"]
-var abc = checkarray.combined()
+        else if (self is [String])
+        {
+            var temp : String = ""
+            for count1 in self
+            {
+                temp = add(temp, count1 as! String)
+            }
+            if(temp == nil)
+            {
+                return "Empty Array"
+            }
+            else
+            {
+              return temp
+            }
+        }
+        
+            return "Empty Array"
+}
+}
+var intTypeArray = [1,2,3]
+var firstInt = intTypeArray.combined()
+var stringTypeArray = [ "hello" , "i" , "Am" , "Akash" ]
+var secondString = stringTypeArray.combined()
+var emptyArray = [Int]()
+var printEmptyArray = emptyArray.combined()
+print(firstInt)
+print(secondString)
+print(printEmptyArray)
 
