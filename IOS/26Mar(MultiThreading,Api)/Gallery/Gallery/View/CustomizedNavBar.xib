@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomizedNavBar" customModule="Gallery" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="Ndj-tY-oQ8" id="pxv-c7-AuQ"/>
+                <outlet property="optionBar" destination="zCv-7c-mMZ" id="n2z-d9-J26"/>
+                <outlet property="titleLabel" destination="cBF-iK-Sbm" id="i7d-uK-9Jd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zCv-7c-mMZ">
+                    <rect key="frame" x="262.5" y="0.0" width="112.5" height="60"/>
+                    <color key="backgroundColor" red="0.60440759430000002" green="0.79102553929999997" blue="0.230948239" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                    <state key="normal" title="Option">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ndj-tY-oQ8">
+                    <rect key="frame" x="0.0" y="0.0" width="112.5" height="60"/>
+                    <color key="backgroundColor" red="0.33270083700000003" green="0.33966202029999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="Back">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gallery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBF-iK-Sbm">
+                    <rect key="frame" x="75" y="0.0" width="225" height="60"/>
+                    <color key="backgroundColor" red="0.1217179373" green="0.57675838469999996" blue="0.71075993780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="zCv-7c-mMZ" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="0or-wK-0p6"/>
+                <constraint firstItem="Ndj-tY-oQ8" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="7ju-i7-6vg"/>
+                <constraint firstItem="cBF-iK-Sbm" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="AbK-jr-8Qi"/>
+                <constraint firstItem="Ndj-tY-oQ8" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.3" id="B06-H8-Qx9"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="zCv-7c-mMZ" secondAttribute="trailing" id="DFe-SC-A6l"/>
+                <constraint firstItem="Ndj-tY-oQ8" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="O5q-Hq-3EA"/>
+                <constraint firstItem="cBF-iK-Sbm" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="U0Z-rW-Dkf"/>
+                <constraint firstItem="Ndj-tY-oQ8" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="ccp-ey-vcC"/>
+                <constraint firstItem="cBF-iK-Sbm" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.6" id="fab-u6-89Q"/>
+                <constraint firstItem="zCv-7c-mMZ" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.3" id="nVC-J5-v6a"/>
+                <constraint firstItem="cBF-iK-Sbm" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="owt-iy-IKx"/>
+                <constraint firstItem="zCv-7c-mMZ" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="vFP-fx-ASQ"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="320.80000000000001" y="128.63568215892056"/>
+        </view>
+    </objects>
+</document>
