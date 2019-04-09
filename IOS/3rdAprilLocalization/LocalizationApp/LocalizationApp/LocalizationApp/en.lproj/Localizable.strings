@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  LocalizationApp
+
+  Created by Akash Verma on 09/04/19.
+  Copyright © 2019 Akash Verma. All rights reserved.
+*/
+
+
+"name" = "Name";
+"state" = "State";
+"country" = "Country";
+"dob" = "Date of Birth";
+"lottry" = "Lottry Won";
