@@ -1,6 +1,5 @@
 import UIKit
 
-var str = "Hello, it's Utkarsh playground"
 
 //: # Session : iOS : Cocoapods & Third Party Integration / Dependancy Manager/ Frameworks
 
@@ -44,7 +43,4 @@ var str = "Hello, it's Utkarsh playground"
  ### pod update 'PODNAME', 'VERSION'
  Using this command we can update to a particular lib version
  */
-
-
-//: ## 5). Question 5 is implemented in Cocoa xcode project file.
 
