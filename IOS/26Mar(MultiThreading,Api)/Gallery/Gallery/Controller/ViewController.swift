@@ -68,7 +68,9 @@ extension ViewController : UICollectionViewDelegate , UICollectionViewDataSource
             return cell
         }
         UIImage.loadFrom(url: url) { image in
-            cell.setImage(image: image!)
+            if let image = image {
+                cell.setImage(image: image)
+            }
         }
         cell.setAuthorName(authorName: arrayData[indexPath.row].author)
         return cell
